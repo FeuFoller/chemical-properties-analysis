@@ -1,17 +1,2 @@
 # chemical-properties-analysis
-## Key Findings
 
-- Analysed a dataset of chemical compounds using Python and pandas.
-- Explored relationships between molecular descriptors and aqueous solubility.
-![alt text](.venv/figures/solubility_distribution.png)
-- Produced visualisations to investigate the influence of molecular weight and lipophilicity (LogP) on solubility.
-- Identified trends and outliers through exploratory data analysis.
-
-## Data Cleaning
-
-- Checked missing values
-- Removed duplicates
-- Examined feature distributions
-- Investigated outliers
-- Engineered new numerical features
-![alt text](image.png)
