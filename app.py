@@ -43,3 +43,19 @@ if st.button("Predict"):
     st.success(
         f"Predicted Solubility: {prediction[0]:.3f}"
     )
+
+with st.sidebar:
+    st.header("About")
+    st.write(
+        """
+        Predict aqueous solubility using
+        a Random Forest model trained on
+        molecular descriptors.
+        """
+    )
+st.markdown("---")
+
+st.caption(
+    "Built with Python, scikit-learn and Streamlit."
+)
+
